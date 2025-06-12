@@ -5,5 +5,8 @@ class Queues
 {
     private :
     static const int max = 5;
-    int
+    int FRONT, REAR;
+    int queue_array[5];
+
+    
 }
